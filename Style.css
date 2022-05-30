@@ -1,0 +1,83 @@
+Style.css
+ul {
+    width :auto
+  }
+
+.conteneur{
+    width: 300px;
+    height: 300px;
+    border: 1px #aaa solid; 
+    text-align: center;
+  }
+ 
+  img {
+    border-radius: 50%;
+    width: 100%;
+
+    }
+
+  .test1 {
+    font : 'calibri';
+    font-size : xx-large;
+   
+      }
+
+.test2 {
+  
+line-height: 0;
+      color: purple; 
+      float: none;
+      border: dashed pink;
+      margin: 2;
+      padding: 2;
+      background-color : rgb(100, 99, 100);
+
+
+ border-radius: 100%;
+    width: 20%;
+    margin: 10;
+    padding: 10;
+    text-align: center;
+
+  }
+
+      .conteneur{
+        width: 300px;
+        height: 300px;
+        border: 1px #aaa solid; 
+        text-align: center;
+      }
+      ul {
+        list-style  : none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid #e7e7e7;
+        background-color: #f3f3f3;
+      }
+      
+      li {
+        float: left;
+        list-style  : none;
+      }
+      
+      li a {
+        display: block;
+        list-style  : none;
+        color: rgb(100, 99, 99);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: pink;
+        list-style  : none;
+      }
+      
+      li a.active {
+        color: white;
+        list-style  : none;
+        background-color: purple;
+        text-align: center;
+      }
